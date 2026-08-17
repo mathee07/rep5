@@ -1,0 +1,14 @@
+{
+  "name": "devops-task-api",
+  "version": "1.0.0",
+  "description": "Node.js Express API with Docker, Kubernetes, Prometheus and Grafana monitoring",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "prom-client": "^15.1.3"
+  }
+}
